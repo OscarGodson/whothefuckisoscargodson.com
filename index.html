@@ -3,28 +3,42 @@
   <head>
     <title>Who the Fuck is Oscar Godson</title> 
     <style>
+      @font-face {
+        font-family: Segoe;
+        src: url('SegoeRg.ttf');
+      }
+      html {
+        background: url(bg.png);
+        background-size: 100%;
+      }
       body {
         font-family: Segoe, Helvetica, Arial;
         padding: 50px;
-        max-width: 700px;
+        max-width: 900px;
         margin: 0 auto;
+        color: #fff;
+        font-size: 185%;
       }
       h1 {
         font-weight: normal;
+        line-height: 1;
+        font-style: italic;
       }
-      p {
+      #the-message {
         font-weight: bold;
-        font-size: 50px;
+        font-size: 3.1em;
+        margin-top: -15px;
       }
       a {
-        color: #000;
+        color: #fff;
         font-style: underline;
       }
     </style>
   </head>
   <body>
-    <h1>Who the Fuck is Oscar Godson?</h1>
+    <h1>Who the fuck is Oscar Godson?</h1>
     <p id="the-message"></p>
+    <p class="smaller">Fucking <a href="">tell me more</a> or fucking <a href="http://twitter.com/oscargodson">follow me</a> on Twitter</p>
   </body>
   <script src="allthethings.js"></script>
 </html>

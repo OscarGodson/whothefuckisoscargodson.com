@@ -1,6 +1,6 @@
 /**
  * All the things Oscar Godson fucking is.
- * Each of these is only shown once, picked at random, until they've all been viewed.
+ * Each of these is picked at random.
  *
  */
 var allTheThings = [
@@ -18,7 +18,10 @@ var allTheThings = [
   'Fucking <a href="http://twitter.com/oscargodson">@oscargodson</a> on Twitter',
   'Used to be a fucking web developer for the <a href="http://www.portlandoregon.gov/bts/">eGov team</a> at the City of Portland, Oregon',
   'A fucking Windows Phone 8 user',
-  'Fucking <a href="http://instagram.com/oscargodson">@oscargodson</a> on Instagram'
+  'Fucking <a href="http://instagram.com/oscargodson">@oscargodson</a> on Instagram',
+  'A hot pepper enthusiast',
+  'A fucking animated GIF lover',
+  'A fucking whiskey connoisseur'
 ];
 
 var theMessage = document.getElementById('the-message');
